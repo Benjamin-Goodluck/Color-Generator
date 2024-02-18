@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="slider-loader" id="sliderLoader"></div>
+      </div>
+
+      
+  <div class="container">
+    <h1>Color Generator</h1>
+    <div class="color-box" id="colorBox"></div>
+    <div class="inputs">
+      <div class="input-group">
+        <label for="rgbInput">RGB:</label>
+        <input type="text" id="rgbInput" placeholder="e.g., 255, 0, 0">
+      </div>
+      <div class="input-group">
+        <label for="hslInput">HSL:</label>
+        <input type="text" id="hslInput" placeholder="e.g., 0, 100%, 50%">
+      </div>
+      <div class="input-group">
+        <label for="hexInput">HEX:</label>
+        <input type="text" id="hexInput" placeholder="e.g., #ff0000">
+      </div>
+    </div>
+    <button id="generateBtn">Generate Color</button>
+    <p id="colorCode"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
